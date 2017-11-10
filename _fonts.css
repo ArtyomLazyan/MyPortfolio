@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "neosans regular";
+	src: url("fonts/Neosans/neosans-medium-webfont.eot");
+	src: url("fonts/Neosans/neosans-medium-webfont.woff") format("woff"),
+			 url("fonts/Neosans/neosans-medium-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "proxima nova light";
+	src: url("fonts/Proxima Nova/proximanova-light-webfont.eot");
+	src: url("fonts/Proxima Nova/proximanova-light-webfont.woff") format("woff"),
+			 url("fonts/Proxima Nova/proximanova-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "proxima nova bold";
+	src: url("fonts/Proxima Nova/proximanova-bold-webfont.eot");
+	src: url("fonts/Proxima Nova/proximanova-bold-webfont.woff") format("woff"),
+			 url("fonts/Proxima Nova/proximanova-bold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "proxima nova regular";
+	src: url("fonts/Proxima Nova/proximanova-regular-webfont.eot");
+	src: url("fonts/Proxima Nova/proximanova-regular-webfont.woff") format("woff"),
+			 url("fonts/Proxima Nova/proximanova-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Adobe Garamond Pro";
+	src: url("fonts/adobe-garamond-pro/adobe-garamond-pro-593aa541df8ed.otf");
+    src: url("fonts/adobe-garamond-pro/Adobe-Garamond-Pro_2012.ttf") format("truetype");
+}

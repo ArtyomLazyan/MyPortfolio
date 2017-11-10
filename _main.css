@@ -1,0 +1,487 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+
+/* Section 1 top */
+
+#top {
+    padding: 5%;
+    font-size: 1.2em;
+    border-bottom: #dddddd solid 1px;
+    color: #666666;
+}
+
+/*latest work in portfolio*/
+
+.block {
+    width: 290px;
+    height: 240px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-block {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-block:hover .overlay {
+    top: 0;
+    opacity: 1;
+}
+
+.portfolio-block img {
+    width: 100%;
+    height: 100%;
+}
+
+.des {
+    display: none;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    top: 150px;
+    left: 0px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.overlay p {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.more-button {
+    color: #fff;
+    font-weight: bold;
+    font-size: .7em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 5px solid #fff;
+    display: inline-block;
+    outline: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.more-button:hover {
+    color: #1691be;
+    border: 5px solid #1691be;
+}
+
+
+/* Section 1 end */
+
+
+/* Section Contact me */
+
+#contact {
+    background: url(img/txture.png) #32333A;
+    color: #dddddd;
+}
+
+.contact-content {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.contact-content p {
+    margin: 20px 0 60px 0;
+}
+
+input[type="text"],
+input[type="email"],
+.message,
+select {
+    padding: 20px;
+    width: 90%;
+    border: 1px solid #a7adb1;
+    margin: 15px 0;
+    font-size: 1.3em;
+    color: #32333A;
+}
+
+.message {
+    max-width: 90%;
+}
+
+.submit {
+    border: none;
+    background-color: #a7adb1;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    margin: 15px 0 150px;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.submit:hover {
+    background-color: #1691be;
+}
+
+
+/* Section Contact me END */
+
+
+/* Section About */
+
+#about {
+    border-bottom: #dddddd solid 1px;
+    background: #F0F0F0;
+}
+
+.bar-chart {
+    height: 450px;
+    max-width: 81%;
+    background: url("img/axis.png") repeat-x;
+    margin: 0 auto;
+    border: 1px solid #DDD;
+    border-top: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-chart li {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 16%;
+    box-shadow: 0 0 2px 1px #DDD;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.percent {
+    position: absolute;
+    bottom: 70px;
+    font-size: 2.5em;
+    opacity: 0.3;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.percent span {
+    font-size: 0.6em;
+}
+
+.skill {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    left: 0;
+    font-size: 0.8em;
+}
+
+.aqua,
+.pink,
+.yellow,
+.brown,
+.red {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.aqua {
+    height: 90%;
+    left: 0;
+    margin-left: 20px;
+    border-color: #8dc5be;
+    background-color: #b0dbd6;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5fb2a8), color-stop(1, #b0dbd6));
+}
+
+.pink {
+    height: 70%;
+    left: 20%;
+    border-color: #ebc0b5;
+    background-color: #f4dcd6;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e1ae9e), color-stop(1, #f4dcd6));
+}
+
+.yellow {
+    height: 80%;
+    left: 40%;
+    border-color: #e7af30;
+    background-color: #efc563;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dfae36), color-stop(1, #efc563));
+}
+
+.brown {
+    height: 65%;
+    left: 60%;
+    border-color: #dcb386;
+    background-color: #dcba83;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #bc8e5b), color-stop(1, #dcba83));
+}
+
+.red {
+    height: 60%;
+    left: 80%;
+    border-color: #e14949;
+    background-color: #da6d6c;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ca4544), color-stop(1, #da6d6c));
+}
+
+.development-process {
+    margin-top: 150px;
+    padding-left: 70px;
+}
+
+.process-text {
+    text-align: left;
+}
+
+.development-img {
+    padding: 0 !important;
+    margin-top: 25px;
+}
+
+.development-img img {
+    width: 100%;
+}
+
+
+/* About end */
+
+
+/* Section Portfolio */
+
+#portfolio {
+    border-bottom: #dddddd solid 1px;
+}
+
+
+/* portfolio modal */
+
+#myImg {
+    cursor: pointer;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content (image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* Caption of Modal Image */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* Add Animation */
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+                transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1);
+                transform: scale(1)
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/*---------------*/
+
+
+/* Portfolio end */
+
+
+/* Footer begin */
+
+#footer {
+    height: 90px;
+    padding: 40px 5% 6% 5%;
+    color: #666666;
+    position: relative;
+    text-align: center;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    background: #f5f5f5;
+    font-size: 1.5em;
+}
+
+.navbar-bottom li {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.navbar-bottom li:first-child {
+    margin-left: 0;
+}
+
+.navbar-bottom li a {
+    color: #666666;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+}
+
+.navbar-bottom li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-bottom li a:focus {
+    text-decoration: none;
+}
+
+.footer-social li {
+    display: inline-block;
+}
+
+.gradient-white {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: -50px;
+    left: 0;
+}
+
+.gradient-white .top {
+    width: 118px;
+    height: 90px;
+    display: block;
+    background: url(img/sprite.png) 0 -217px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -40px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.gradient-white .top:hover {
+    bottom: -35px;
+}
+
+
+/* Footer end */

@@ -1,0 +1,156 @@
+body {
+	font-size: 15px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	overflow-x: hidden;
+	font-family: "Adobe Garamond Pro" !important;
+}
+.h1_name {
+	font-size: 6rem;
+	color: #000;
+}
+
+p {
+	font-size: 1.3em;
+}
+.hidden {
+	display: none;
+}
+
+ul li {
+	list-style-type: none;
+} 
+
+/* Nav bar settings */ 
+.navbar {
+	border-radius: 0 !important;
+	padding: 7px 25px 7px 55px;
+	font-size: 1.5em;
+}
+.navbar-header {
+	padding: 10px;
+}
+.nav {
+	padding-top: 10px;
+	margin: 0 39px;
+    display: inline-block;
+}
+.nav li a, .navbar-brand {
+	color: #fff !important;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.nav li a:hover {
+	opacity: 0.7;
+}
+
+.navbar-brand {
+	padding: 0 !important;
+}
+.mobile, .mail {
+	font-size: 1.1em;
+}
+.mobile {
+	margin-bottom: 5px;
+}
+.navbar-contact .fa-mobile {
+	font-size: 1.3em;
+	padding:0 4px 0 4px;
+}
+
+.social {
+	float: right;
+	font-size: 1.0em;
+	padding-top: 13px;
+}
+
+.social li {
+	display: inline-block;
+	color: #fff;
+}
+
+.social li a {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 10px 0 10px;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.main-text .who-am-i {
+	margin-bottom: 25px;
+	font-size: 1.7em;
+}
+
+.main-text .name {
+	color: #000;
+}
+
+.photo {
+	height: 400px;
+}
+
+.photo img {
+	width: 100%;
+	height: 200px;
+}
+
+.img_wrap {
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 0 2px 1px #ddd;
+	margin: 10px 0 0 100px;
+	height: 18em;
+	width: 18em;
+	background: url(img/photooooooo.jpg) no-repeat 0px 0px;
+	background-size: 100%;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.img_wrap:hover {
+	-webkit-transform: rotate(15deg);
+	        transform: rotate(15deg);
+}
+
+.latest-work {
+	border-top: 1px solid #dddddd;
+	margin-top: 90px;
+	position: relative;
+}
+
+.latest-work h3 {
+	background: #fff;
+	font-size: 1.3em;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	margin-left: -175px;
+	width: 350px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.thumbs {
+	margin-top: 50px;
+}
+
+.social li a:hover {
+	opacity: 0.7;
+}
+/* Navbar end */
+
+#contact, #portfolio, #about {
+	text-align: center;
+	color: #586268;
+	padding: 30px 0;
+	font-size: 1.2em;
+}
+#contact h1, #portfolio h1, #about h1 {
+	font-size: 3.0em;
+	padding-bottom: 20px;
+}
+
